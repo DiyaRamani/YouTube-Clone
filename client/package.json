@@ -22,12 +22,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "prebuild": "npm install --force",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "prestart": "npm install --force",
+  "start": "react-scripts start",
+  "prebuild": "npm install --force",
+  "build": "react-scripts build",
+  "pretest": "npm install --force",
+  "test": "react-scripts test",
+  "preeject": "npm install --force",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
