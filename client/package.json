@@ -22,13 +22,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "prestart": "npm install --force",
+  "prestart": "npm install --legacy-peer-deps",
   "start": "react-scripts start",
-  "prebuild": "npm install --force",
+  "prebuild": "npm install --legacy-peer-deps",
   "build": "react-scripts build",
-  "pretest": "npm install --force",
+  "pretest": "npm install --legacy-peer-deps",
   "test": "react-scripts test",
-  "preeject": "npm install --force",
+  "preeject": "npm install --legacy-peer-deps",
   "eject": "react-scripts eject"
 },
   "eslintConfig": {
